@@ -55,3 +55,4 @@ test/images/*.gif
 test/images/*.jpg
 test/images/*.png
 test/images/*.pdf
+.project
