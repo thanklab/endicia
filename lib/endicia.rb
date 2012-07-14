@@ -4,8 +4,8 @@ require 'active_support/core_ext'
 require 'builder'
 require 'uri'
 
-require 'endicia/label'
-require 'endicia/rails_helper'
+require_relative 'endicia/label'
+require_relative 'endicia/rails_helper'
 
 # Hack fix because Endicia sends response back without protocol in xmlns uri
 module HTTParty
